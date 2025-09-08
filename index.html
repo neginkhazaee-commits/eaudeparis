@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eau de Paris — Refill & Qualité</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0c3c88">
+  <link rel="icon" sizes="192x192" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body style="font-family:sans-serif; padding:2em;">
+  <h1>💧 Eau de Paris — Demo App</h1>
+  <p>This is your installable demo app. Open on Chrome (Android) → menu ⋮ → "Add to Home screen".</p>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
+</body>
+</html>
